@@ -12,10 +12,7 @@ class HomePageOne extends StatelessWidget {
       body: Center(
         child: TextButton(
           onPressed: () {
-            Navigator.of(context).pushNamed(
-              NamedRoute.pageOne,
-              arguments: 'Vim pelo app',
-            );
+            Navigator.of(context).pushNamed(NamedRoute.pageOne);
           },
           child: const Text('Ir para Page One'),
         ),
