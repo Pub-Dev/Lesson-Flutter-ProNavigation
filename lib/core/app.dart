@@ -32,3 +32,37 @@ class _AppState extends State<App> {
     );
   }
 }
+
+
+
+// class App extends StatelessWidget {
+//   const App({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       routes: {
+//         '/': (_) => const HomePage(),
+//         '/homeone': (_) => const HomePageOne(),
+//         '/homeone/one': (_) => const PageOne(),
+//       },
+//       initialRoute: NamedRoute.home,
+//     );
+//   }
+// }
+
+// // class App extends StatelessWidget {
+// //   const App({Key? key}) : super(key: key);
+
+// //   @override
+// //   Widget build(BuildContext context) {
+// //     return MaterialApp(
+// //       routes: {
+// //         NamedRoute.home: (_) => const HomePage(),
+// //         NamedRoute.homePageOne: (_) => const HomePageOne(),
+// //         NamedRoute.pageOne: (_) => const PageOne(),
+// //       },
+// //       initialRoute: NamedRoute.home,
+// //     );
+// //   }
+// // }
